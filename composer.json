@@ -1,0 +1,25 @@
+{
+  "name": "xcl3721/dora-paas",
+  "description": "Dora PaaS will Support the PHP Platform Solution",
+  "keywords": [
+    "Platform",
+    "Dora-PaaS"
+  ],
+  "license": "Apache",
+  "homepage": "https://github.com/xcl3721/dora-paas",
+  "require": {
+    "php": ">=7.1.0",
+    "ext-swoole" : "1.9.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dora\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "ChangLong.Xu",
+      "email": "xcl_rockman@qq.com"
+    }
+  ]
+}
